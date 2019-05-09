@@ -1,3 +1,5 @@
+from operator import itemgetter
 def sort_contacts(param):
     # code here
-    return ""
+    sorted_param = sorted(param, key = itemgetter('name'))
+    return "sorted_param
